@@ -12,7 +12,8 @@ export const UpDownCounter = () => {
           setCount(--count)
         }
       }
-  
+
+      
     return (
     <div>
         <button onClick={() => onHandleClick("Down") }>Down</button> {count}<span><button onClick={() => onHandleClick("Up") }>Up</button></span>
