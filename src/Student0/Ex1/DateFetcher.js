@@ -9,6 +9,6 @@ export const DateFetcher = () => {
     <div className="Main">
       <button onClick={() => setDate(new Date().toUTCString())}>Push</button>
       UTC Date: {date}
-    </div>
+    </div> 
   )
 }
