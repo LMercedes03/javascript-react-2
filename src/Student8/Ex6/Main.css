@@ -5,5 +5,11 @@
 }
 
 body {
-    background-color: lightgray
+    background-color: lightgray;
+}
+
+.Main button {
+    font-size: larger;
+    background-image: linear-gradient(to right, rgb(73, 186, 116), rgb(119, 44, 111) ,rgb(23, 148, 87));
+    
 }
