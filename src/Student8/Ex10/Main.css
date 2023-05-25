@@ -7,3 +7,16 @@
 body {
     background-color: lightgray
 }
+
+.Main {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    border-style: solid;
+    padding: 1em;
+    flex-direction: column;
+    flex: content;
+    background: linear-gradient(to right, rgb(102, 23, 82), rgb(31, 115, 126), rgb(6, 94, 15));
+    font-weight: bold;
+    font-size: larger;
+}

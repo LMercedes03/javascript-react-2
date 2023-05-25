@@ -5,7 +5,7 @@ export const AddCalculator = () => {
     let [add1, setAdd1] = useState(0)
     let [add2, setAdd2] = useState(0)
     let [add3, setAdd3] = useState(0)
-    let [total, setTotal] = useState(0)
+    // let [total, setTotal] = useState(0)
   
     const onHandleClick = (calculation) => {
         switch (calculation) {
@@ -21,9 +21,8 @@ export const AddCalculator = () => {
           default:
             break;
         }
-        setTotal(calculation);
+        // setTotal(total);
       };
-  
   
     return (
     <div>
