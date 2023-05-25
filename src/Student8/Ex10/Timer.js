@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './Timer.css'
 
 export const Timer = () => {
-// Declare state variables using the useState hook
+// Declare state variables
     const [startTime, setStartTime] = useState(""); // Holds the start time when the button is clicked
     const [endTime, setEndTime] = useState(""); // Holds the elapsed time when the button is clicked again to stop the timer
   
@@ -23,7 +23,8 @@ export const Timer = () => {
   
     return (
       <div className='Timer'>
-        <h1>Timer</h1>
+        <h1>⏲️Timer</h1>
+        <br />
         <button onClick={handleButtonClick}>{startTime ? 'Stop' : 'Start'}</button>
         {endTime && <p>Elapsed Time: {endTime} seconds</p>}
       </div>
